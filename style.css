@@ -1,0 +1,131 @@
+@font-face {
+    font-family: FiraGO-Regular;
+    src: url(../Fonts/FiraGO-Regular.woff);
+  }
+
+body {
+    background-color: #FDFDFD;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.dec {
+    width: 718px;
+    background: #FFFFFF;
+    border: 1px solid  rgb(163, 163, 232);
+    border-radius: 10PX;
+
+    padding-top: 40px;
+    padding-right: 51px;
+    padding-bottom: 63px;
+    padding-left: 47px;
+}
+
+h1 {
+    font-family: FiraGO-Regular;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    
+    color: #000000;
+
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.input_item label {
+    display: block;
+
+    font-family:FiraGO-Regular;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    
+    color: #000000;
+
+    margin-bottom: 5PX;
+}
+
+.input_item input {
+    background: rgb(255, 255, 255);
+    border: 1PX solid rgb(163, 163, 232);
+    border-radius: 10px;
+
+    width: 95%;
+    height: 12px;
+
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
+
+.input_1 {
+    margin-bottom: 18px;
+}
+
+.input_2 {
+    margin-bottom: 13px;
+}
+
+.test_block {
+    margin-bottom: 26px;
+}
+
+.Lost_password {
+    font-family: FiraGO-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+    color: #0653AD;
+}
+
+.dec_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_details span {
+    font-family: FiraGO-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000; 
+}
+
+.footer_details a {
+    font-family: FiraGO-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0653AD; 
+}
+
+.btn {
+    width: 205px;
+    height: 47px;
+    border: 1px solid transparent;
+    background: yellow;
+    border-radius: 8px;
+
+    font-family: FiraGO-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color:#000000;
+}
